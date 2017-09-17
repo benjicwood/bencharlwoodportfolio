@@ -36,3 +36,64 @@ img {
   width: auto;
   margin-bottom: -4px;
 }
+header {
+  background-color: #6991AC;
+  width: 100%;
+  height: 86px;
+}
+#header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#logo {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 60px;
+  background: url(img/RD.png) no-repeat center;
+}
+/*--- Start Navigation ---*/
+/*--- padding = top right bottom right ---*/
+
+nav {
+  float: right;
+  padding: 25px 20px 0 0;
+}
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(img/nav.png) center;
+}
+a:hover#menu-icon {
+  border-radius: 4px 4px 0 0;
+}
+ul {
+  list-style-type: none;
+}
+nav ul li {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 150%;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+nav ul li a {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #C3D7DF;
+}
+.current {
+  color: #C3D7DF;
+}
+/*---End Navigation---*/
+.banner {
+  width: 100%;
+  background-color: #6991AC;
+}
+.banner-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
