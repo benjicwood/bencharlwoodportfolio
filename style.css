@@ -271,4 +271,13 @@ footer.second p {
   aside {
     width: 100%;
   }
+  .hand-mobile {
+    display: none;
+  }
+  .one-third {
+    width: 100%;
+  }
+  .social i {
+    font-size: 180%;
+  }
 }
