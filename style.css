@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import 'https://fonts.googleapis.com/css?family=Nunito';
 
 * {
   margin: 0;
@@ -7,8 +7,8 @@
 }
 body {
   background: #F5F5F5;
-  color: #67727A;
-  font-family: 'Alegreya', sans-serif;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
   margin: 0;
 }
 h2 {
@@ -31,7 +31,6 @@ p {
   font-size: 160%;
   line-height: 150%;
   padding: 3%;
-  text-indent: 2%;
   text-align: justify;
 }
 img {
@@ -106,6 +105,22 @@ nav ul li a:hover {
   float: left;
   text-align: center;
 }
+
+.one-eighth {
+  width: 12.5%;
+  float: left;
+  text-align: center;
+}
+
+.one-tenth {
+  width: 10%;
+  float: left;
+  text-align: center;
+}
+
+#skills {
+  background-color: #f5f5f5;
+}
 #html {
   background-color: #F1AA90;
 }
@@ -118,11 +133,42 @@ nav ul li a:hover {
 #social {
   background-color: #A2B2C1;
 }
+#node {
+  background-color: rgb(255, 251, 0);
+}
+
 .one-fourth i {
   color: #F0F0F0;
   font-size: 500%;
   padding: 13% 0 4% 0;
 }
+
+.one-eighth i {
+  color: #F0F0F0;
+  font-size: 500%;
+  padding: 13% 0 4% 0;
+}
+
+.one-eighth img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+.one-tenth i {
+  color: #F0F0F0;
+  font-size: 500%;
+  padding: 13% 0 4% 0;
+}
+
+.one-tenth img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+
 .inner-wrapper {
   float: left;
   width: 100%;
@@ -176,8 +222,14 @@ aside {
 #customers {
   background-color: #AADCD2;
 }
-#smiley {
-  background-color: #AADCD2;
+#smiley1 {
+  background-color: #6991AC;
+  padding: 0 0 1%;
+  clear: both;
+}
+
+#smiley2 {
+  background-color: #6991AC;
   padding: 0 0 1%;
   clear: both;
 }
@@ -265,6 +317,25 @@ footer.second p {
     font-size: 350%;
     padding: 4% 0 1% 0;
   }
+
+  .one-eighth {
+    float: left;
+    width: 100%;
+  }
+  .one-eighth i {
+    font-size: 350%;
+    padding: 4% 0 1% 0;
+  }
+
+  .one-tenth {
+    float: left;
+    width: 100%;
+  }
+  .one-tenth i {
+    font-size: 350%;
+    padding: 4% 0 1% 0;
+  }
+
   article {
     width: 100%;
   }
@@ -280,4 +351,91 @@ footer.second p {
   .social i {
     font-size: 180%;
   }
+}
+
+
+/*--------------------------------------------------------
+    CONTACT
+--------------------------------------------------------*/
+
+label span {
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+
+.contact-section {
+  background-color: #6991AC;
+  background-image: url(../images/map-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-section hr {
+  margin-bottom: 80px;
+  border: 2px solid whitesmoke;
+}
+
+.contact-section form {
+  max-width: 450px;
+  margin: 0 auto 0;
+}
+
+.contact-section form input,
+textarea {
+  background-color: transparent;
+  border: 3px solid whitesmoke;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.contact-section form input:focus,
+textarea:focus {
+  outline: none;
+  border-color: whitesmoke;
+}
+
+.contact-section form label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contact-section form label span {
+  display: block;
+}
+
+.details label {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.details label:nth-child(1) {
+  padding-right: 5px;
+}
+
+.details label:nth-child(2) {
+  padding-left: 5px;
+}
+
+.contact-section form textarea {
+  height: 10em;
+}
+
+.contact-section form input[type="submit"] {
+  background: rgba(f, f, f);
+  color: whitesmoke;
+  border-color: whitesmoke;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 33%;
+}
+
+.contact-section form input[type="submit"]:hover {
+  background: #333;
+}
+
+.submit-wrap {
+  text-align: right;
 }
