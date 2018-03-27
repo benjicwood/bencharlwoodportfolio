@@ -6,3 +6,4 @@ TO DO:
 
 Make the links to the apps below go to hosted apps (currently mostly just github links)
 Make ABOUT ME font better, more consistant with title
+Make Nav Bar links work and be highlighted when selected
