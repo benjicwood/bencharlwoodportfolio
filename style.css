@@ -53,7 +53,6 @@ header {
   float: left;
   width: 200px;
   height: 60px;
-  background: url(img/RD.png) no-repeat center;
 }
 /*--- Start Navigation ---*/
 /*--- padding = top right bottom right ---*/
@@ -66,7 +65,6 @@ nav {
   display: hidden;
   width: 40px;
   height: 40px;
-  background: url(img/nav.png) center;
 }
 a:hover#menu-icon {
   border-radius: 4px 4px 0 0;
@@ -78,7 +76,6 @@ nav ul li {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 150%;
   display: inline-block;
-  float: left;
   padding: 10px;
 }
 nav ul li a {
@@ -233,13 +230,19 @@ aside {
   padding: 0 0 1%;
   clear: both;
 }
+
+#smiley3 {
+  background-color: #6991AC;
+  padding: 0 0 1%;
+  clear: both;
+}
+
 /*--- Start Footer ---*/
 footer {
   background-color: #6991AC;
   width: 100%;
 }
 .social {
-  line-style-type: none;
   text-align: center;
 }
 .social li {
@@ -281,7 +284,6 @@ footer.second p {
   }
   #logo {
     margin: 15px 0 20px -25px;
-    background: url(img/RD_mobile.png) no-repeat center;
   }
   #menu-icon {
     display: inline-block;
@@ -365,7 +367,6 @@ label span {
 
 .contact-section {
   background-color: #6991AC;
-  background-image: url(../images/map-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
