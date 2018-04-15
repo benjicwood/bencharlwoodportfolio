@@ -1,9 +1,12 @@
 # Ben Charlwood Porfolio
 
-TO DO:
+Information and examples of work by Ben Charlwood - Junior Software Developer
 
-27/03/18 - To Do: 
+View at https://benjicwood.github.io/bencharlwoodportfolio/
 
-Make the links to the apps below go to hosted apps (currently mostly just github links)
+# To Do
+
+15/04/18 - To Do:
+
+Make the links to the apps below go to hosted apps (some just github links)
 Make ABOUT ME font better, more consistant with title
-Make Nav Bar links work and be highlighted when selected
