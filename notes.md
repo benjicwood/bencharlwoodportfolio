@@ -1,0 +1,5 @@
+- change font
+- better images for each project
+- finish David Hoare website
+- deploy Pineapple Music
+- music higher/lower idea
