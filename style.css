@@ -355,6 +355,24 @@ footer.second p {
   }
 }
 
+/*--------------------------------------------------------
+    CONTACT
+--------------------------------------------------------*/
+
+.btn-cv {
+  font-size: 18px;
+  margin: 10px;
+  display: block;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.btn-cv h2 {
+  color: #6991AC;
+}
 
 /*--------------------------------------------------------
     CONTACT
